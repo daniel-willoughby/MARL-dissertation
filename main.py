@@ -12,8 +12,8 @@ for agent in env.agent_iter():
     else:
         print("looped2")
         action = env.action_space(agent).sample()  # This is where you would insert your agent's policy
-    #added this comment for push trial 2
-    
+    #added this comment for push trial 2 and 3
+
     env.step(action)
 
     env = tictactoe_v3.env(render_mode="human")
