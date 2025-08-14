@@ -12,7 +12,16 @@ for agent in env.agent_iter():
     else:
         print("looped2")
         action = env.action_space(agent).sample()  # This is where you would insert your agent's policy
+
+
+    
     #added this comment for push trial 2 and 3
+
+
+    # added this comment for pull trial 1
+
+
+    
 
     env.step(action)
 
